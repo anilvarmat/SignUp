@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`message box to match snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <WithStyles(Login)
+    classes={Object {}}
+    onChange={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "classes": Object {
+        "avatar": "Login-avatar-4",
+        "button": "Login-button-2",
+        "container": "Login-container-7",
+        "form": "Login-form-5",
+        "main": "Login-main-1",
+        "paper": "Login-paper-3",
+        "submit": "Login-submit-6",
+        "suggestion": "Login-suggestion-9",
+        "suggestionsContainerOpen": "Login-suggestionsContainerOpen-8",
+        "suggestionsList": "Login-suggestionsList-10",
+        "textField": "Login-textField-11",
+      },
+      "onChange": [MockFunction],
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "classes": Object {
+          "avatar": "Login-avatar-4",
+          "button": "Login-button-2",
+          "container": "Login-container-7",
+          "form": "Login-form-5",
+          "main": "Login-main-1",
+          "paper": "Login-paper-3",
+          "submit": "Login-submit-6",
+          "suggestion": "Login-suggestion-9",
+          "suggestionsContainerOpen": "Login-suggestionsContainerOpen-8",
+          "suggestionsList": "Login-suggestionsList-10",
+          "textField": "Login-textField-11",
+        },
+        "onChange": [MockFunction],
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
